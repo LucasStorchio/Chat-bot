@@ -1,36 +1,55 @@
-# Chat Bot
+# Chat Bot para Atendimento ao Cliente no Whatsapp
 
 ## Descrição
-Este projeto é um chat bot que permite responder a perguntas frequentes. Desenvolvido com o objetivo de ajudar os usuários a obter informações rapidamente. O bot é configurável e pode ser integrado a diferentes plataformas de mensagem.
+Este projeto é um chatbot para atendimento ao cliente conectado ao WhatsApp via QRCode, projetado para melhorar a interação entre empresas e usuários. O sistema permite que o chatbot responda a perguntas frequentes, colete informações e gerencie interações ao longo do atendimento.
+
+**Importante:** O backend já está implementado, mas atualmente enfrenta erros na importação de contatos e conversas. Esses problemas serão corrigidos nas próximas fases do desenvolvimento. 
+
+### Personalização
+Se você decidir usar este projeto, será necessário realizar modificações nos logos e características das páginas para adequá-las à sua marca. É importante lembrar que, embora a estrutura do projeto esteja disponível, a personalização é essencial para distinguir sua aplicação.
+
+## Funcionalidades do Chatbot
+O chatbot inclui as seguintes funcionalidades:
+
+- **Interação em Tempo Real:** Respostas instantâneas a perguntas dos usuários.
+- **Interface Amigável:** Design intuitivo que facilita a navegação.
+- **Kanban:**  É um método de gerenciamento de fluxo de trabalho que ajuda as organizações a gerenciar e melhorar seus sistemas de trabalho.
+- **Integrações a APIS externas** Se sentir necessidade de conectar a outros serviços essa função estará disponível.
+- **Coleta de Informações:** Coleta de dados dos usuários, como nome, telefone e e-mail.
+- **Listas de Opções:** Oferece opções de perguntas frequentes para que os usuários possam escolher.
+- **Acesso a Recursos:** Links diretos para FAQs, guias ou páginas de suporte.
+- **Relatórios de Interações:** Em desenvolvimento para permitir acompanhamento das interações.
 
 ## Tecnologias Utilizadas
-- **JavaScript**: Linguagem de programação principal do projeto.
-- **Node.js**: Utilizado para o backend do chat bot.
-- **MySQL**: Banco de dados para armazenar informações e interações do usuário.
-- **Express.js**: Framework para construir a API do servidor.
-- **React**: Biblioteca utilizada para criar um frontend interativo (caso haja).
+- **HTML5**: Para a estrutura da interface.
+- **CSS3**: Para estilização e design visual.
+- **JavaScript**: Para as interações dinâmicas na interface do usuário.
+- **Node.js**: Para a implementação do backend.
+- **MySQL**: Banco de dados utilizado para armazenar informações do usuário.
 
 ## Instalação
-Para instalar o projeto, siga os passos abaixo:
+Para instalar e executar o projeto, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/LucasStorchio/livro-receitas.git
+   git clone https://github.com/LucasStorchio/Chat-bot.git
 Navegue até o diretório do projeto:
 
 cd Chat-bot
-Instale as dependências:
+Instale as dependências do backend:
 
+cd backend  # ou o diretório onde está o backend
 npm install
-Configure o banco de dados MySQL conforme necessário, criando um banco de dados e um usuário.
+Configure seu banco de dados MySQL conforme necessário, criando um banco de dados e um usuário.
 
-Adicione suas credenciais ao arquivo de configuração se necessário. (Referencie os ajustes necessários em .env ou em um arquivo de configuração.)
+Inicie o backend:
 
+npm start  # ou o comando apropriado para seu framework
+Abra a parte frontend no seu navegador:
+
+index.html  # ou o arquivo principal de frontend
 Uso
-Para iniciar a aplicação, execute o seguinte comando:
-
-npm start
-Em seguida, acesse http://localhost:3000 em seu navegador.
+O chatbot está pronto para interagir com usuários por meio da interface do frontend. Observe que, devido a problemas de importação de contatos e conversas, essa funcionalidade pode estar temporariamente limitada.
 
 Contribuição
 Contribuições são bem-vindas! Para contribuir com este projeto, siga os passos abaixo:
@@ -44,14 +63,7 @@ Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
 Contato
-Você pode me encontrar em LinkedIn ou me enviar um e-mail para seuemail@example.com.
+Você pode me encontrar em LinkedIn ou enviar um e-mail para lucasstorchio2020@gmail.com.
 
 Notas Adicionais
-Você pode adicionar qualquer outra informação relevante aqui, como links para documentação adicional, vídeos de demonstração, ou qualquer instrução específica que ajude na utilização do projeto.
-
-### Personalização
-- **Links e Nomes**: Substitua os links e nomes de usuário pelos seus próprios.
-- **Tecnologia**: Adapte a seção de tecnologias para refletir exatamente o que você está usando.
-- **Instruções de Uso**: Certifique-se de que as instruções de uso estejam corretas de acordo com a forma como seu bot foi configurado.
-
-Sinta-se à vontade para modificar este modelo com informações específicas sobre seu projeto para torná-lo mais útil e informativo. Se precisar de mais ajuda ou ajustes, estou à disposição!
+O desenvolvimento do backend prosseguirá para corrigir os problemas de importação. Mantenha seu ambiente atualizado e personalize o projeto conforme necessário para atender às suas necessidades.
