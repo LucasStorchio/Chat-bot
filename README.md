@@ -36,18 +36,11 @@ Para instalar e executar o projeto, siga os passos abaixo:
 Navegue até o diretório do projeto:
 
 cd Chat-bot
-Instale as dependências do backend:
+Execute o script de instalação chamado whaticketsaas:
 
-cd backend  # ou o diretório onde está o backend
-npm install
-Configure seu banco de dados MySQL conforme necessário, criando um banco de dados e um usuário.
+./whaticketsaas
+Siga as instruções apresentadas pelo script para concluir a instalação.
 
-Inicie o backend:
-
-npm start  # ou o comando apropriado para seu framework
-Abra a parte frontend no seu navegador:
-
-index.html  # ou o arquivo principal de frontend
 Uso
 O chatbot está pronto para interagir com usuários por meio da interface do frontend. Observe que, devido a problemas de importação de contatos e conversas, essa funcionalidade pode estar temporariamente limitada.
 
@@ -59,6 +52,7 @@ Crie uma nova branch (git checkout -b feature/nome-da-sua-feature).
 Faça commit das suas mudanças (git commit -m 'Adicionando nova feature').
 Envie a branch para o repositório remoto (git push origin feature/nome-da-sua-feature).
 Abra um Pull Request.
+
 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
