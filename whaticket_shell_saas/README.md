@@ -2,12 +2,8 @@
 
 ## CRIAR SUBDOMINIO E APONTAR PARA O IP DA SUA VPS ##
 
-FRONTEND_URL: app.Brandxdigital.com.br
-BACKEND_URL:  api.brandxdigital.com.br
-
-## CHECAR PROPAGAÇÃO DO DOMÍNIO ##
-
-https://dnschecker.org/
+FRONTEND_URL: app.seudominio.com
+BACKEND_URL:  api.seudominio.com
 
 ## COPIAR A PASTA PARA ROOT E RODAR OS COMANDOS ABAIXO ##
 
