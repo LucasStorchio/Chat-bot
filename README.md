@@ -67,3 +67,8 @@ Você pode me encontrar em LinkedIn ou enviar um e-mail para lucasstorchio2020@g
 
 Notas Adicionais
 O desenvolvimento do backend prosseguirá para corrigir os problemas de importação. Mantenha seu ambiente atualizado e personalize o projeto conforme necessário para atender às suas necessidades.
+Não é necessario levantar o servidor em nuvem na AWS isso vai da sua preferencia, se você nunca teve contato faça isso em uma VM local.
+
+## Melhorias a fazer
+- Correção do backend
+- Adicinar videos de ajuda dentro da plataforma em produção para auxiliar o usuário. (de inicio ela vem fazia)
